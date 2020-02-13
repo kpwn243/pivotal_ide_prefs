@@ -1,4 +1,8 @@
 <keymap version="1" name="Pivotal Common" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="meta alt w" />
   </action>
@@ -8,6 +12,15 @@
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="ctrl meta alt open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl meta alt close_bracket" />
+  </action>
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="ctrl meta alt o" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="ctrl meta alt o" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="meta alt k" />
   </action>
   <action id="Macro.run whole test file">
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
@@ -42,10 +55,6 @@
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl meta alt h" />
-  </action>
-  <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt f12" />
-    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="org.jetbrains.plugins.ruby.tasks.rake.actions.RakeTasksPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
